@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/nhanlenguyen/.local/share/nvim/site/pack/packer/start/indentline",
     url = "https://github.com/yggdroot/indentline"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/nhanlenguyen/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/nhanlenguyen/.local/share/nvim/site/pack/packer/start/nvim-autopairs",

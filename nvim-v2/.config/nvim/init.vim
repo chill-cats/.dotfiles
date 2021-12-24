@@ -1,3 +1,4 @@
+filetype plugin indent on
 " plugin manager using Packer
 lua require('plugins')
 
@@ -12,11 +13,6 @@ set background=dark
 let g:everforest_background = 'medium'
 
 colorscheme everforest
-
-" remapping
-let mapleader = " "
-nnoremap <silent><leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input('Grep for > ') })<CR>
-
 
 " autocmds
 fun! TrimWhiteSpace()
